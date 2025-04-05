@@ -10,7 +10,7 @@ import Experience from './Experience';
 import Works from './Works';
 import Feedbacks from './Feedbacks';
 import Contact from './Contact';
-// import Whatsapp from './Whatsapp';
+import Whatsapp from './Whatsapp';
 
 export {
   Navbar,
@@ -22,7 +22,7 @@ export {
   Works,
   Feedbacks,
   Contact,
-//   Whatsapp,
+Whatsapp,
   EarthCanvas,
   BallCanvas,
   ComputersCanvas,
