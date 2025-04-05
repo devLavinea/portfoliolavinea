@@ -128,7 +128,7 @@ body {
 }
 
 .bg-custom2 {
-  background-image: url("./assets/imgcta.jpg");
+ 
   background-size: cover;
   object-fit: cover;
   background-position: center;
