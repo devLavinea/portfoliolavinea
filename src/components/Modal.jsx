@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import { HiX } from "react-icons/hi";
-import { SectionWrapper } from "../hoc";
+
 
 const data = {
   devburguer: {
@@ -74,4 +74,4 @@ const Project = () => {
   );
 };
 
-export default SectionWrapper(Modal, "");
+export default Project;
