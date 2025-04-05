@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import  Ball  from "../canvas/Ball";
+import  {BallCanvas}  from "../canvas";
 import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
 
@@ -41,7 +41,7 @@ const Tech = () => {
     <div className="flex flex-row flex-wrap justify-center gap-10 ">
       {visibleTechnologies.map((technology) => (
         <div className="w-28 h-28" key={technology.name}>
-          <Ball icon={technology.icon} />
+          <BallCanvas icon={technology.icon} />
         </div>
       ))}
     </div>

@@ -2,7 +2,7 @@ import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "emailjs-com";
 import { styles } from "../styles";
-import  Earth  from "../canvas/Earth";
+import  {EarthCanvas}  from "../canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
@@ -72,7 +72,7 @@ const Contact = () => {
           variants={slideIn("right", "tween", 0.2, 1)}
           className="xl:flex-1 h-[480px] w-full lg:h-[98%] md:h-[600px] "
         >
-          <Earth />
+          <EarthCanvas />
         </motion.div>
 
         {/* Formulário de contato */}
