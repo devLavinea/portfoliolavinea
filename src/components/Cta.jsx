@@ -1,5 +1,6 @@
 import React from "react";
 import { styles } from "../styles";
+import { SectionWrapper } from "../hoc";
 
 const Cta = () => {
   return (
@@ -34,4 +35,4 @@ const Cta = () => {
   );
 };
 
-export default Cta;
+export default SectionWrapper(Cta, "Cta");

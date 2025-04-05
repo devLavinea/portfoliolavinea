@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import React from "react";
-
+import { SectionWrapper } from "../hoc";
 import  Computers  from "../canvas/Computers";
 
 const Hero = () => {
