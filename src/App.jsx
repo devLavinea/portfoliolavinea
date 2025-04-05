@@ -21,7 +21,7 @@ const App = () => {
   return (
     <div className="relative flex-col items-center justify-center z-0 bg-primary overflow-x-hidden w-full">
       <div className="bg-custom bg-cover bg-no-repeat bg-center">
-        <Whatsapp />  
+        {/* <Whatsapp />   */}
         <Navbar />
         <Cta />
         <Hero />
