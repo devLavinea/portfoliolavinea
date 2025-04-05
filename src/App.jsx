@@ -11,7 +11,7 @@ Experience,
 Works,
 Feedbacks,
 Contact,
-Whatsapp,
+// Whatsapp,
 StarsCanvas
 } from "./components";
 
